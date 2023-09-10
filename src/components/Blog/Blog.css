@@ -1,0 +1,14 @@
+/* start of blog styles */
+
+.blog {
+  padding: 10px;
+  background-color: var(--body);
+  border-top: 1px solid #212121;
+}
+.article-title {
+  direction: rtl;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+/* end of blog styles */

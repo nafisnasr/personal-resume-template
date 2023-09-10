@@ -1,0 +1,24 @@
+/* start of footer styles */
+
+footer {
+  background-color: var(--body);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer h4 {
+  font-family: "lalezar";
+  color: var(--second-color);
+}
+.footer p {
+  direction: rtl;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+  margin-right: 2px;
+}
+
+/* end of Footer styles */

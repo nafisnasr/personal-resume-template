@@ -1,0 +1,14 @@
+/* start of portfolio styles */
+
+.Portfolio {
+  background-color: var(--body);
+  padding: 10px;
+  border-top: 1px solid #212121;
+}
+.Portfolio-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* End of portfolio styles */

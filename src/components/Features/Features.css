@@ -1,0 +1,17 @@
+/* start of features styles */
+
+.features {
+  width: 100%;
+  background-color: var(--body);
+  border-top: 1px solid #212121;
+  direction: rtl;
+  padding:10px;
+}
+.feature-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* end of features styles */

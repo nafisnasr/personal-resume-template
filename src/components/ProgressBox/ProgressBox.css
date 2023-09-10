@@ -1,0 +1,17 @@
+/* start of progress box styles */
+
+.progress-box {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--body);
+  direction: rtl;
+  border-top: 1px solid #212121;
+}
+.progress-box__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* End of progress box styles */

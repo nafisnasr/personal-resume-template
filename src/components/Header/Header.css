@@ -1,0 +1,48 @@
+/* start of header styles */
+
+header {
+  width: 100%;
+  background-color: var(--navbar);
+}
+.header-wrapper {
+  padding: 10px;
+  direction: rtl;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-left-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main-menu ul li {
+  list-style-type: none;
+  color: var(--white);
+  font-weight: bold;
+  margin: 0px 25px;
+}
+.brand {
+  font-family: "Lalezar";
+  color: var(--second-color);
+  font-size: 30px;
+  text-decoration: none;
+}
+.mobile-nav {
+  border: none;
+  background-color: unset;
+}
+.navbar-icon {
+  color: var(--white);
+  font-size: 30px;
+}
+
+
+/* end of Header styles */

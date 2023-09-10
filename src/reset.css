@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir";
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Bold.eot);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Bold.ttf);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Bold.woff);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Bold.woff2);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Light.eot);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Light.ttf);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Light.woff);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Light.woff2);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Medium.eot);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Medium.ttf);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Medium.woff);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Medium.woff2);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Thin.eot);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Thin.ttf);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Thin.woff);
+  src: url(/src/style/vazir-font-v16.1.0/Vazir-Thin.woff2);
+}
+
+@font-face {
+  font-family: "Lalezar";
+  src: url(/src/style/lalezar/Lalezar-Regular.otf);
+  src: url(/src/style/lalezar/Lalezar-Regular.ttf);
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --body: #000;
+  --navbar: #212428;
+  --white: #fff;
+  --second-color: #ff014f;
+  --shadow-1: -10px 10px 19px #1c1e22, 10px -10px 19px #262a2e;
+  --shadow-2: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset,
+    -1px -3px 3px -2px hsla(0, 0%, 100%, 0.2) inset;
+  --btn-bg: #1e2024;
+}

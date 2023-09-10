@@ -1,0 +1,59 @@
+/* start of tabBox styles */
+
+.tab {
+  padding: 20px;
+  color: var(--white);
+}
+.tab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.tab-header__right-box .title {
+  font-weight: bold;
+}
+.tab-header__right-box .category {
+  font-weight: bold;
+}
+.tab-header__left-box {
+  width: 30%;
+}
+.tab-header__left-box button {
+  border: none;
+  background-color: var(--body);
+  color: var(--second-color);
+  width: 100%;
+  padding: 8px 10px;
+}
+
+.tab-footer__btn-box {
+  width: 100%;
+  padding: 10px;
+}
+.tab-footer__btn-box button {
+  border: none;
+  background-color: #141414;
+  color: var(--second-color);
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+.tab-footer__btn-box button:hover {
+  background-color: #14141494;
+}
+.tab-footer__text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab-footer__text span {
+  margin: 0px 5px;
+  font-size: 14px;
+}
+
+/* end of tabBox styles */

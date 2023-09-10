@@ -1,0 +1,32 @@
+/* start of portfolioBox styles */
+
+.Portfolio-item {
+  background-color: var(--btn-bg);
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 8px;
+  color: var(--white);
+  cursor: pointer;
+}
+.Portfolio-item .category-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+}
+.category-box .category-name {
+  color: var(--second-color);
+  font-weight: bold;
+  font-size: 20px;
+}
+.icon-box .rate-icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+.portfolio-title {
+  direction: rtl;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* End of portfolioBox styles */

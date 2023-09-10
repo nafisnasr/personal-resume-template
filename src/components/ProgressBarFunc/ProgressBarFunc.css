@@ -1,0 +1,11 @@
+/* start progress bar styles */
+
+.progress-bar__title {
+  color: var(--white);
+  font-weight: bold;
+}
+.progress-bar__container {
+  padding: 10px;
+}
+
+/* end progress bar styles */
